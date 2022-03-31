@@ -34,11 +34,11 @@
             newHeightVal = Math.round(roundedWidth * ratioVals[1]);
 
         // Update fields
-        $oldImageTile.attr('src', 'http://placehold.it/' + widthVal + 'x' + heightVal);
+        $oldImageTile.attr('src', 'https://via.placeholder.com/' + widthVal + 'x' + heightVal);
         $newWidth.val(newWidthVal);
         $newHeight.val(newHeightVal);
         $ratio.text(newAspectRatio);
-        $newImageTile.attr('src', 'http://placehold.it/' + newWidthVal + 'x' + newHeightVal);
+        $newImageTile.attr('src', 'https://via.placeholder.com/' + newWidthVal + 'x' + newHeightVal);
     });
 })();
 
